@@ -34,6 +34,15 @@ class Rectangle implements Shape
 	 }
 }
 
+class triangle implements Shape
+{
+	 @Override
+	 public void draw()
+	 {
+		 System.out.println("a triangle drawn");
+	 }
+}
+
 
 class ShapeFactory
 {
